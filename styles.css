@@ -1,0 +1,83 @@
+
+html {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/941/847/non_2x/cosmetic-background-for-product-branding-and-packaging-presentation-geometry-form-circle-molding-on-podium-stage-with-shadow-of-leaf-background-design-eps10-vector.jpg);
+    background-size: cover;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    color: #F2E3D5;
+    text-decoration: bold;
+  }
+  
+  h1, p{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  h1 {
+    font-size: 22px;
+    margin: 1rem auto;
+  }
+
+  p {
+    margin: 1rem 10%;
+    font-size: 1.3rem;
+  }
+  
+  form {
+    width: 65vw;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-top: 2px dashed #3CA6A6;
+    border-bottom: 2px dashed #3CA6A6;
+  }
+  
+  fieldset:last-of-type {
+    border: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.6rem 0;
+  }
+  
+  input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em; 
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input > label {
+    display: inline;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.3rem;
+    color: #F2E3D5;
+    background-color: #024959;
+    border-color: #3CA6A6;
+    min-width: 300px;
+  }
+  

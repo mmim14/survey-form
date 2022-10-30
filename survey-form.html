@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <title>Survey Form Certification</title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kanit:ital,wght@0,200;0,400;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title">Mim's Personal Survey Form</h1>
+    <p id="description">This is my personal survery form. Please use it to give me a review of how I treated you and what are your honest opinions of me. Your thoughtful criticism is valued. Peace!</p>
+    <form id="survey-form">
+      <fieldset id="personal-info">
+        <label id="name-label" for="name" >Name <input required id="name" type="text" placeholder="Enter your name " /></label>
+        <label id="email-label" for="email">Email <input required id="email" type="email" placeholder="Enter your email address"/></label>
+        <label id="number-label" for="age">Age (optional) <input id="number" type="number" min="5" max="105" placeholder="Enter your age"/>
+      </fieldset>
+      <fieldset id="relationship">
+          <label id for="dropdown">How do you know me?
+            <select id="dropdown" name="dropdown">
+              <option value="1">Family</option>
+              <option value="2">Friend</value>
+              <option value="3">Colleague at work</option>
+              <option value="4" id="other">Other <input id="other" type="text" placeholder="Please specify if other: " /></option>
+              <!--Future updates: I want the 'Please specify' option to show only when chosen 'Other'-->
+            </select>
+          </label>
+      </fieldset>
+      <fieldset id="feedback">
+        <legend>Did you have a positive experience of me?</legend>
+        <label><input type="radio" name="opinion" value="Yes" class="inline" />Yes</label>
+        <label></label><input type="radio" name="opinion" value="No" class="inline" />No</label> 
+        <label><input type="radio" name="opinion" value="Neutral" class="inline" />Neutral</label>
+      </fieldset>
+      <fieldset>
+        <label>Check mark the things you like about me:<br> <input type="checkbox" value="respect-kindness" class="inline" />Show of respect and kindness<label>
+          <label><input type="checkbox" value="professionalism" class="inline" />Professionalism<label>
+          <label><input type="checkbox" value="dedication" class="inline" />Dedication<label>
+          <label><input type="checkbox"value="courage" class="inline" />Standing up for my belief and values<label>
+        <label>Please provide a detailed feedback<textarea>You can improve on ...</textarea></label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit Your Feedback" />
+    </form>
+  </body>
+</html>
+
